@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-yello-color: #FFC600;
+    --main-green-color:   #00778B;
+    --main-text-heading-color: #303030;
+    --main-backgroun-text-color: #ffffff;
+    --main-header-button-color: #3E3E3E;
+    --main-button-color: #2D2926;
+    --main-section-bg: #F3F3F3;
+    --main-copyright-color: #333333;
+}
+@font-face {
+    font-family: 'Nexa Light';
+    src: url(../fonts/nexa-light.otf);
+}
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url(../fonts/nexa-bold.otf);
+}
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url(../fonts/arlrdbd.TTF);
+}
+@font-face {
+    font-family: 'Arial-Rounded';
+    src: url(../fonts/unicode.arialr.ttf);
+}
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url(../fonts/arial-rounded-mt-light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat-regular.otf);
+}
+.navigatioWrapper{
+    position: relative;
+    height: 125px;
+}
+.navigationBg{
+  background: #1B2221;
+  opacity: 90%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.navigationItems{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navigationItemsInner{
+width: 75%;
+margin: 0 auto;
+height: 125px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.HeaderInner{
+    width: 100%;
+    background: url('../images/header.png');
+    height: 871px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aspireLogo{
+    width: 15%;
+}
+.aspireLogo img{
+    width: 104.58px;
+    height: 93.03px;
+}
+.backToWebsite{
+width: 60%;
+}
+.backToWebsite a{
+    background: transparent;
+    border: 1px solid var(--main-yello-color);
+    color: var(--main-backgroun-text-color);
+    font-size: 17px;
+    padding: 8px 17px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Nexa Light';
+}
+.loginButton{
+    width: 25%;
+    text-align: center;
+}
+.loginButton a{
+    background: var(--main-yello-color);
+    border: 1px solid var(--main-yello-color);
+    color: var(--main-header-button-color);
+    font-size: 17px;
+    padding: 8px 17px;
+    border-radius: 50px;
+    text-decoration: none; 
+    font-family: 'Montserrat';
+}
+.bannerContent{
+    width: 78%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroImage img{
+    height: 503.4px;
+    width: 516.12px;
+    margin-top: 5%;
+}
+.formSection{
+    width: 92%;
+    background: var(--main-backgroun-text-color);
+    padding: 7% 10%;
+    border-radius: 10px;
+}
+.formSection h3{
+    font-size: 38px;
+    color: var(--main-text-heading-color);
+    font-family: 'Arial Rounded MT Bold';
+}
+.formSection h2{
+    font-size: 55px;
+    color: var(--main-yello-color);
+    font-family: 'Arial Rounded MT Bold';
+}
+.formSection p{
+    font-size: 22px;
+    font-family: 'Arial-Rounded';
+    color: var(--main-text-heading-color);
+    width: 80%;
+}
+.formSection h4{
+    font-size: 28px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-text-heading-color);
+    margin-top: 30px;
+}
+
+.heroForm{
+    margin-top: 15px;
+}
+.heroForm input{
+border: none;
+font-family: 'Arial-Rounded';
+font-size: 18px;
+outline: none;
+color: var(--main-text-heading-color);
+margin: 0px 10px;
+}
+
+.heroForm span{
+    font-family: 'Arial-Rounded';
+    font-size: 18px;
+   color: var(--main-text-heading-color);
+    }
+    .formBtn{
+    display: block;
+    padding: 15px 40px;
+    background: var(--main-yello-color);
+    color: var(--main-button-color) !important;
+    margin: 40px 0px 0px 0px !important;
+    border-radius: 50px;
+    }
+
+    .sectionOneContainer{
+        width: 70%;
+        margin: -5% auto 0 auto;
+        background: var(--main-backgroun-text-color);
+        padding: 2% 3%;
+        border-radius: 10px;
+        box-shadow: 2px 3px 4px 5px #888888;
+    }
+
+/* Header Css end */
+
+/* section one css start */
+.sectionOneImagePart img{
+width: 265.94px;
+height: 265.08px;
+}
+.sectionOneContentPart{
+    width: 70%;
+}
+.sectionOneContentPart h4{
+    font-size: 28px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-yello-color);
+}
+.sectionOneContentPart p{
+    font-size: 16px;
+    color: var(--main-text-heading-color);
+    font-family: 'Arial-Rounded';
+    line-height: 1.7em;
+}
+.setionOneSecondPara{
+    font-size: 20px;
+    color: var(--main-text-heading-color);
+    font-family: 'Arial-Rounded';
+    line-height: 1.7em;
+}
+.setionOneThirdPara{
+    font-size: 20px;
+    color: var(--main-text-heading-color);
+    font-family: 'Arial-Rounded';
+    line-height: 1.7em; 
+}
+/* section one css end */
+
+/* section two css start */
+.sectionTwoContainer{
+ width: 64.3%;
+ margin: 5% auto;
+}
+.sectionTwoContentPart h3{
+    font-size: 45px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-text-heading-color);
+}
+.sectionTwoContentPart p{
+    font-size: 18px;
+    font-family: 'Arial-Rounded';
+    width: 83%;
+    line-height: 2.2em;
+    margin-top: 3%;
+}
+/* section two css end */
+
+/* section three css start */
+.sectionThreeContainer{
+    width: 64.3%;
+    margin: 5% auto; 
+}
+.sectionThreeContentPart h3{
+    font-size: 45px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-text-heading-color);
+}
+.sectionThreeImagePart img{
+    position: absolute;
+    width: 113.94px;
+    height: 114px;
+}
+.sectionThreeContentBg h4{
+font-size: 28px;
+color: var(--main-backgroun-text-color);
+font-family: 'Arial Rounded MT Bold';
+background: var(--main-text-heading-color);
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+padding: 1% 3%;
+margin: 3.2% 0%;
+}
+.sectionThreeContentBg ul li{
+list-style: none;
+font-size: 20px;
+font-family: 'Arial-Rounded';
+color: var(--main-text-heading-color);
+line-height: 2em;
+}
+/* section three css end */
+
+/* section four css start */
+.sectionFourParent{
+background: var(--main-section-bg);
+margin-top: 5%;
+padding: 5% 0;
+}
+.pricingBox{
+    background: var(--main-backgroun-text-color);
+    padding: 0 0 12% 0;
+    border-radius: 10px;
+}
+.pricingheadParent{
+    display: flex;
+    background: var(--main-yello-color);
+    width: 100%;
+    border-radius: 10px;
+    padding: 4% 0;
+}
+.pricingHead1{
+    width: 50%;
+    text-align: center;
+    border-right: 2px solid var(--main-text-heading-color);
+}
+.pricingHead1 h4{
+    font-size: 18px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-text-heading-color);
+    margin-top: 2%;
+}
+.pricingHead2{
+    width: 50%;
+    text-align: center;
+}
+.pricingHead2 h4{
+    font-size: 22px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-text-heading-color);
+}
+.pricingInner{
+    width: 100%;
+    text-align: center;
+    margin-top: 6%;
+}
+.pricingInner p{
+    font-size: 20px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-text-heading-color);
+}
+.pricingText{
+    font-size: 20px !important;
+    color: var(--main-text-heading-color) !important;
+    font-family: 'Arial-Rounded' !important; 
+    margin-bottom: 2%;
+}
+.pricingBtn{
+    text-decoration: none;
+    background: var(--main-yello-color);
+    color: var(--main-button-color);
+    font-size: 18px;
+    font-family: 'Arial-Rounded';
+    padding: 3% 8%;
+    border-radius: 50px; 
+}
+.pricingBtn:hover{
+    color: var(--main-button-color);
+}
+.pricingButton{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+/* section four css end */
+
+/* sectio 5 css start */
+.sectionFiveParent{
+background: url('../images/footer-bofore-image.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 5%;
+padding: 5% 0;
+}
+.sectionFiveContainer{
+    width: 75%;
+    margin: 0 auto;
+}
+.sectionFiveContentPart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sectionFiveContentPart h2{
+    font-size: 55px;
+    font-family: 'Arial Rounded MT Bold';
+    color: var(--main-backgroun-text-color);
+}
+.sectionFiveContentPart p{
+    font-size: 18px;
+    font-family: 'Arial-Rounded';
+    color: var(--main-backgroun-text-color);
+    margin-top: 4%;
+    width: 50%;
+}
+.sectionFiveFormPartParent{
+    position: relative;
+    /* padding: 20% 5%; */
+    height: 45vh;
+}
+.sectionFiveFormPart{
+    background: var(--main-backgroun-text-color);
+    opacity: 85%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.sectionFiveFormPartInner {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.formParent {
+    margin: 8% 0;
+}
+.formInputs{
+    width: 100%;
+    padding: 4% 6%;
+    background: transparent;
+    color: var(--main-button-color);
+    border: 1.5px solid var(--main-button-color);
+    font-size: 18px;
+    font-family: 'Arial-Rounded';
+    outline: none;
+    margin: 4% 0%;
+    border-top-right-radius: 20px;
+}
+.formbutton{
+    text-align: center;
+    margin-top: 4%;
+}
+.FormInputBtn{
+    background: var(--main-yello-color);
+    color: var(--main-button-color);
+    font-size: 18px;
+    font-family: 'Arial-Rounded';
+    padding: 4% 6%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+/* sectio 5 css end  */
+
+/* footer css start */
+.aspiroFooter{
+    background: var(--main-green-color);
+    padding: 3% 0;
+    margin-top: 5%;
+}
+.footerOne{
+    width: 50%;
+    margin: 0 auto;
+}
+.footerNavigation {
+    display: flex;
+    justify-content: center;
+}
+.footerNavigation li{
+list-style: none;
+padding: 0 0 0 2%;
+}
+.footerNavigation li a{
+    font-size: 17px;
+    color: var(--main-backgroun-text-color);
+    font-family: 'Nexa Light';
+    text-decoration: none;
+}
+.footerTwo {
+    width: 80%;
+    margin: 2% auto 0 auto;
+}
+.footerLogo {
+    text-align: center;
+}
+.footerLogo img {
+    width: 127.1px;
+    height: 111.28px;
+}
+.footerAddress{
+    display: flex;
+}
+.footerAddress img{
+    width: 61px;
+    height: 61px;
+}
+.footerAdressContent h4{
+    font-size: 24px;
+    color: var(--main-backgroun-text-color);
+    font-family: 'Arial Rounded MT Bold';
+}
+.footerAddressImagePart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.footerAdressContent p{
+    font-size: 15px;
+    color: var(--main-backgroun-text-color);
+    font-family: 'Arial-Rounded';
+}
+.footerEmailImagePart{
+    width: 20%;
+    
+}
+.footerEmailImagePart img{
+    width: 61px;
+    height: 61px;
+}
+.footerEmail {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.footerEmailContent h4{
+    font-size: 24px;
+    color: var(--main-backgroun-text-color);
+    font-family: 'Arial Rounded MT Bold';
+}
+.footerEmailContent p{
+    font-size: 15px;
+    color: var(--main-backgroun-text-color);
+    font-family: 'Arial-Rounded'; 
+}
+.footerPhone {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.footerPhoneImagePart{
+    width: 20%;
+}
+.footerPhoneImagePart img{
+    width: 47px;
+    height: 47px;  
+}
+.footerPhoneContent h4{
+    font-size: 24px;
+    color: var(--main-backgroun-text-color);
+    font-family: 'Arial Rounded MT Bold';
+}
+.footerPhoneContent p{
+    font-size: 15px;
+    color: var(--main-backgroun-text-color);
+    font-family: 'Arial-Rounded';
+}
+.footerCopyright{
+    background: var(--main-yello-color);
+}
+.footerCopyrightContainer{
+    width: 69%;
+    margin: 0% auto;
+    height: 60px;
+}
+.copyRightLinks {
+    text-align: end;
+    margin-top: 4%;
+}
+.copyRightContent {
+    margin-top: 4%;
+}
+.copyRightContent p{
+    font-size: 15px;
+    color: var(--main-copyright-color);
+    font-family: 'Montserrat';
+}
+.copyRightLinks ul li {
+    list-style: none;
+}
+.copyRightLinks ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--main-copyright-color);
+    font-family: 'Montserrat';
+}
+/* footer css end */
+
+    /* media query for desktop screen size  */
+    @media (min-width: 1280px) and (max-width: 1900px){
+        .bannerContent{
+            width: 80%;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1712px){
+        .bannerContent{
+            width: 83%;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1663px){
+        .formSection{
+            width: 95%;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1590px){
+        .bannerContent{
+            width: 85%;
+        }
+        .formSection{
+            width: 97%;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1510px){
+        .bannerContent{
+            width: 88%;
+        }
+        .formSection{
+            width: 99%;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1420px){
+        .bannerContent{
+            width: 90%;
+        }
+        .formSection{
+            width: 100%;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1371px){
+        .bannerContent{
+            width: 95%;
+        }
+        .formSection{
+            width: 100%;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1300px){
+        .bannerContent{
+            width: 95%;
+            margin: 0 auto;
+        }
+        .formSection{
+            width: 100%;
+        }
+        .formSection h2{
+            font-size: 45px;
+        }
+    }
+
+    /* media query for mobile */
+    @media (min-width: 350px) and (max-width: 768px) {
+        .heroImage{
+            text-align: center;
+        }
+        .heroImage img{
+            height: auto;
+            width: 80%;
+            margin-top: 5%;
+        }
+        .formSection{
+            width: 100%;
+            padding: 5% 7%;
+            margin-top: 30px;
+        }
+        .formSection h3{
+            font-size: 27px;
+            text-align: center;
+        }
+        .formSection h2{
+            font-size: 31px;
+            text-align: center;
+        }
+        .formSection p{
+            font-size: 15px;
+            width: 100%;
+            text-align: center;
+        }
+        .formSection h4{
+            font-size: 22px;
+            text-align: center;
+        }
+        .formBtn{
+            margin: 30px auto !important;
+            padding: 12px 30px;
+            font-size: 15px !important;
+        }
+        .heroForm span{
+            font-size: 15px;
+        }
+        .heroForm input{
+            margin: 0 auto;
+        }
+    }
